@@ -1,0 +1,31 @@
+:root {
+  /* Colors */
+  --primary-color: #a9e851;
+  --green-500: #10b981;
+  --purple-400: #a78bfa;
+  --cyan-400: #18c9dd;
+  --orenge-400: #fb923c;
+  --pink-400: #fb7185;
+  --success-color: #32ca5b;
+  --danger-color: #ff3a33;
+  --neutral-400: #a1a1aa;
+  --neutral-950: #18181b;
+  --foregrounds-fg-base: #f4f4f5;
+  --foregrounds-fg-subtle: #a1a1aa;
+  --white-400: #ffffff;
+  --white-500: #f4f4f5;
+  --red-400: #fb7185;
+  --red-300: #fda4af;
+  --border-border-base: #ffffff1a;
+  --background-bg-disabled: #27272a;
+  --dark-background-bg-base: #212124;
+
+  /* Font Sizes */
+  --fs-xsmall: 12px;
+  --fs-small: 13px;
+  --fs-medium: 14px;
+  --fs-large: 16px;
+  --fs-2xlarge: 24px;
+  --fs-3xlarge: 40px;
+  --fs-4xlarge: 56px;
+}

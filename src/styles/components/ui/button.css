@@ -1,0 +1,25 @@
+.button {
+  padding: 8px 12px;
+  border: none;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 6px;
+  line-height: 20px;
+  border-radius: 6px;
+}
+
+.primary_button {
+  box-shadow: 0 0 0 1px #1f6619, 0 1px 2px #1f661966, inset 0 0.75px #ffffff33;
+}
+
+.primary_button span {
+  color: var(--neutral-950);
+  font-size: var(--fs-small);
+}
+
+.pill_button {
+  padding: 6px 10px;
+  border-radius: 100px;
+}
