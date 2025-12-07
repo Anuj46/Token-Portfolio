@@ -6,16 +6,22 @@ const Button = ({
   icon,
   type = "simple",
   varient = "primary",
-  disabeled = false,
+  disabled = false,
   onClick,
+  responsive,
 }) => {
   return (
     <button
-      className={`button ${varient}_button ${type}_button`}
+      className={`button ${varient}_button ${type}_button ${
+        disabled && "disabled_button"
+      } ${responsive && "responsive_button"}`}
       onClick={onClick}
+      disabled={disabled}
     >
       {icon}
-      <span>{children}</span>
+      <span className={`${responsive && "responsive_button_text"}`}>
+        {children}
+      </span>
     </button>
   );
 };

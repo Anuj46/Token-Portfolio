@@ -1,0 +1,23 @@
+.app_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page_wrapper {
+  flex: 1;
+  padding: 28px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-border-base);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

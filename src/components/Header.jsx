@@ -1,15 +1,18 @@
 import React from "react";
-import Icon from "./ui/Icon";
+import Icon from "./Icon";
 import Button from "./ui/Button";
+import { MdWallet } from "react-icons/md";
+import "../styles/components/header.css";
+import WalletConnect from "./wallet/WalletConnect";
 
 const Header = () => {
   return (
-    <div>
-      <div>
+    <div className="header">
+      <div className="header_icon">
         <Icon />
-        <span>Token Portfolio</span>
+        <span className="header_icon_name">Token Portfolio</span>
       </div>
-      <Button type="pill">Content Wallet</Button>
+      <WalletConnect />
     </div>
   );
 };

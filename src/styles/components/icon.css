@@ -1,0 +1,15 @@
+.app_icon {
+  height: 28px;
+  width: 28px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+
+.app_icon_inner {
+  height: 16px;
+  width: 16px;
+  background: var(--neutral-950);
+  clip-path: polygon(0 0, 80% 20%, 100% 100%, 0 100%);
+}

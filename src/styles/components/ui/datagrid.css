@@ -1,0 +1,98 @@
+.datagrid_table_wrapper {
+  flex: 1;
+  overflow-y: hidden;
+  border-radius: 12px;
+}
+
+.datagrid {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff14;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.datagrid_table {
+  width: 100%;
+  max-height: 100%;
+  border: none;
+  border-radius: 12px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  overflow-y: auto;
+}
+
+.datagrid_header {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #ffffff14;
+  background: var(--background-bg-disabled);
+  z-index: 3;
+  border-radius: 12px;
+}
+
+.datagrid_header th,
+.datagrid_body td {
+  text-align: left;
+  height: 48px;
+  font-size: var(--fs-small);
+  color: var(--neutral-400);
+  font-weight: 500;
+  line-height: 20px;
+  padding-left: 12px;
+}
+
+.datagrid_body tr:hover {
+  background: var(--background-bg-disabled);
+}
+
+.datagrid_body td {
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.datagrid_footer {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ffffff14;
+  font-size: var(--fs-small);
+  color: var(--neutral-400);
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.datagrid_pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.datagrid_nodata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.datagrid_nodata_text {
+  font-size: var(--fs-2xlarge);
+}
+
+@media screen and (max-width: 480px) {
+  .datagrid_table {
+    width: 900px;
+    max-height: 100%;
+    border: none;
+    border-radius: 12px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    overflow-y: auto;
+  }
+}

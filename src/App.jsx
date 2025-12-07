@@ -1,17 +1,18 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
+import Home from "./pages/home";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div style={{ color: "var(--primary-color)" }}>sdsdsd</div>
+    <div className="app_wrapper">
       <Header />
-    </>
+      <div className="page_wrapper">
+        <Home />
+      </div>
+    </div>
   );
 }
 

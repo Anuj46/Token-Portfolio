@@ -11,7 +11,6 @@
   --neutral-400: #a1a1aa;
   --neutral-950: #18181b;
   --foregrounds-fg-base: #f4f4f5;
-  --foregrounds-fg-subtle: #a1a1aa;
   --white-400: #ffffff;
   --white-500: #f4f4f5;
   --red-400: #fb7185;
@@ -19,6 +18,8 @@
   --border-border-base: #ffffff1a;
   --background-bg-disabled: #27272a;
   --dark-background-bg-base: #212124;
+  --foregrounds-fg-disabled: #52525b;
+  --foregrounds-fg-muted: #71717a;
 
   /* Font Sizes */
   --fs-xsmall: 12px;
